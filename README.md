@@ -27,7 +27,7 @@ Parses MikroTik syslog events and extracts the following fields:
 
 1. Copy the `default/` folder into your Splunk app directory:
 ```
-   $SPLUNK_HOME/etc/apps/mikrotik-syslog/
+   $SPLUNK_HOME/etc/apps/Splunk_TA-mikrotik/
 ```
 2. Restart Splunk or reload the app
 3. Assign sourcetype `mikrotik:syslog` to your MikroTik syslog inputs
